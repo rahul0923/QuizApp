@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">QuizMe</string>
+    <string name="main_info">Pick your favorite topic and click on Begin.</string>
+    <string name="choice_animals">Animals</string>
+    <string name="choice_words">Words</string>
+    <string name="choice_math">Math</string>
+    <string name="choice_science">Science</string>
+    <string name="quiz_info">There will be 5 multiple choice questions. Choose the answer that you think is correct. You will see your score at the end. </string>
+    <string name="good_luck">Good Luck!!!</string>
+    <string name="begin_button">Begin</string>
+    <string name="next_button">Next</string>
+    <string name="finish_button">Finish</string>
+    <string name="score_button">Start Again</string>
+    <string name="close_button">Close</string>
+</resources>

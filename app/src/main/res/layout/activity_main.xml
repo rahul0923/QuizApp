@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.rkesavan.quizapp.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+        <TextView
+            android:id="@+id/questTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PrimaryText"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/main_info" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+            <RadioButton
+                android:id="@+id/radioChoice1"
+                android:paddingLeft="16dp"
+                android:checked="true"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="sans-serif-light"
+                style="@style/SecondaryText"
+                android:text="@string/choice_animals" />
+
+            <RadioButton
+                android:id="@+id/radioChoice2"
+                android:paddingLeft="16dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="sans-serif-light"
+                style="@style/SecondaryText"
+                android:text="@string/choice_words" />
+
+            <RadioButton
+                android:id="@+id/radioChoice3"
+                android:paddingLeft="16dp"
+                style="@style/SecondaryText"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/choice_math" />
+
+            <RadioButton
+                android:id="@+id/radioChoice4"
+                android:paddingLeft="16dp"
+                style="@style/SecondaryText"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/choice_science" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textViewQuizInfo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-light"
+            style="@style/PrimaryText"
+            android:text="@string/quiz_info"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textGoodLuck"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            style="@style/PrimaryText"
+            android:fontFamily="sans-serif-light"
+            android:textSize="40sp"
+            android:gravity="center_horizontal"
+            android:text="@string/good_luck" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/begin_button"
+            android:fontFamily="sans-serif-light"
+            android:textSize="18sp"
+            android:onClick="buttonClicked"
+            style="@style/ButtonBgColor"/>
+    </LinearLayout>
+</ScrollView>
