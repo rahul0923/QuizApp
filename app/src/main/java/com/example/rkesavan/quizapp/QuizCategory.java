@@ -11,7 +11,5 @@ public class QuizCategory {
     public int categoryID;
     public ArrayList<CategoryQAndA> categoryQAndAs = new ArrayList<CategoryQAndA>();
 
-    public QuizCategory() {
-
-    }
+    public QuizCategory() {  }
 }

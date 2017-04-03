@@ -7,7 +7,7 @@ package com.example.rkesavan.quizapp;
 public class DummyAnimals {
     public QuizCategory quizCategory;
 
-    public DummyAnimals() {
+    DummyAnimals() {
         this.initAnimals();
     }
 
@@ -50,7 +50,7 @@ public class DummyAnimals {
         categoryQAndA.answers.add("4");
         categoryQAndA.answers.add("14");
         categoryQAndA.answers.add("8");
-        categoryQAndA.correctAnswer = categoryQAndA.answers.get(0);
+        categoryQAndA.correctAnswer = categoryQAndA.answers.get(2);
         this.quizCategory.categoryQAndAs.add(categoryQAndA);
 
         categoryQAndA = new CategoryQAndA();

@@ -10,6 +10,6 @@
     <string name="begin_button">Begin</string>
     <string name="next_button">Next</string>
     <string name="finish_button">Finish</string>
-    <string name="score_button">Start Again</string>
+    <string name="done_button">Done</string>
     <string name="close_button">Close</string>
 </resources>
